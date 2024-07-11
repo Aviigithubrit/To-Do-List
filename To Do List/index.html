@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container mt-4">
+    <h1 class="text-center mb-4">To-Do List</h1>
+    
+    <div class="row mb-3">
+      <div class="col">
+        <input type="text" id="taskInput" class="form-control" placeholder="Add a new task...">
+      </div>
+      <div class="col-auto">
+        <button id="addTaskBtn" class="btn btn-primary">Add Task</button>
+      </div>
+    </div>
+
+    <ul id="taskList" class="list-group">
+      <!-- Tasks will be dynamically added here -->
+    </ul>
+  </div>
+
+  <!-- Bootstrap JavaScript (optional) -->
+  <!-- Popper.js (required for Bootstrap's JavaScript plugins) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js" integrity="sha384-Ya+KtmcdO/3HUaSZnACvEag+OnFVgBMkgPk9G3KlYxmIQ8siP3brZhWtL1c5uI2V" crossorigin="anonymous"></script>
+  
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-0mSbJqLQISlGgBmfRbZaoEt2NkvSj+irE2456FynqTc4UOMLLqG1FZzhXYB+2Wyh" crossorigin="anonymous"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

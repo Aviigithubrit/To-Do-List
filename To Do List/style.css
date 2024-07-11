@@ -1,0 +1,19 @@
+/* Custom styles */
+
+body {
+    background-color: #002a54;
+  }
+  
+  .container {
+    max-width: 600px;
+    background-color: #99cbf9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .list-group-item.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
